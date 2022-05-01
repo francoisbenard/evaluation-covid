@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header>.container {
+    background-color: #FFFFFF;
+}
+
+.intro {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: #E4E4E4;
+}
+
+html {
+    margin-top: 0px !important;
+}
+
+.logo-republique {
+    height: 100px;
+}
+
+.logo-covid {
+    height: 80px;  
+}
+.logo-covid2 {
+    height: 80px;  
+}
+
+.bloc-header {
+    border-bottom: 1px solid #7287DC;
+}
+
+.bloc-border-red {
+    border-top: 1px solid #E1000F;
+}
+
+.bandeau-vaccine {
+    max-width: 495px;
+}
+
+.arrow-right {
+    filter: invert(40%) sepia(14%) saturate(2313%) hue-rotate(202deg) brightness(95%) contrast(86%);
+    height: 14px;
+    width: 14px;
+
+}
+.footer-link {
+    color: #0000919E;
+}
+
+.footer{
+    background-color: #F6F6F6;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0000919E;
+}
+
+.bgc {
+    background-color: #7287DC;
+}
+
+.titre-gris {
+    color: #7A7A7A;
+    font-size: 18px;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #707070!important;
+}
+
+.titre-page {
+    color: #7A7A7A;
+    font-size: 18px;
+    background-color: #F6F6F6;
+    font-weight: 600;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separator {
+    width: 95%;
+}
+
+.link-actu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    color: #272727;
+    font-size: 16px;
+}
+
+.link-actu a {
+      color: #505050;
+}
+
+.link-actu a:hover {
+    color: #a70000;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    color: #7A7A7A;
+    font-size: 14px;
+    background-color: #F6F6F6;
+}
+.social-icon {
+    filter: invert(50%) sepia(7%) saturate(6%) hue-rotate(327deg) brightness(94%) contrast(92%);
+}
+
+.copygouv {
+    font-size: 10px;
+    color: #707070;
+}
+
+.titre-actu {
+    color : #707070;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.texte-actu {
+    color : #707070;
+    font-size: 14px;
+}
+.bloc-actu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card {
+    background-color: #FFFFFF;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.hover-img-trouvez:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: .5;
+ 
+                  
+}
+.hover-img-solidaire:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: .5;
+
+                  
+}
+
+@media screen and (max-width: 991px) {
+    .logo-covid {
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 991px) {
+    .logo-covid2 {
+        display: none;
+    }
+  }
